@@ -73,18 +73,43 @@ public class ArraylistDemo1 {
                 Collections.sort (fruits);
                 System.out.println ("after sorting A to Z :"+fruits );
 
-                //16.reverse sort
+                // 16. reverse the word by for loop
+               System.out.println ("reverse the word by for loop");
+                ArrayList<String> reversedList = new ArrayList<> ();
+                for(String fruit :fruits){
+                    String reversedWord ="";
+                    for(int i = fruit.length ()-1;i>=0;i--){
+                        reversedWord += fruit.charAt (i);
+                    }
+                    reversedList.add (reversedWord);
+                }
+                 System.out.println ("original list : "+ fruits);
+                 System.out.println ("reversed word list : "+reversedList);
+
+               // 17.reverse the word by for each method
+                   System.out.println ("reverse the word by for each method");
+                  ArrayList<String> reversedW = new ArrayList<> ();
+
+                     fruits.forEach (fruit->{
+                     String reversed = new StringBuilder (fruit).reverse ().toString ();
+                     reversedW.add (reversed) ;
+                 });
+                   System.out.println (reversedW);
+
+                //17.reverse sort
                 Collections.sort (fruits,Collections.reverseOrder ());
                 System.out.println ("after sorting Z to A :"+fruits );
 
 
-                // 17. subList(fromIndex, toIndex)
+                // 18. subList(fromIndex, toIndex)
                 List<String> sliced = fruits.subList(1, 4);
                 System.out.println("Sublist (1 to 4): " + sliced);
 
-                // 18. clear()
+                // 19. clear()
                 fruits.clear();
                 System.out.println("After clear(): " + fruits); // []
+
+
             }
         }
 

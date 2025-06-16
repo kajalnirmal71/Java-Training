@@ -77,7 +77,7 @@ public class LinkedListDemo1 {
         System.out.println (" after sorting reverse Alphabetically (Z TO A) :"+ cities);
 
         // 15.sublist
-        List<String>subList = cities.subList (1,3);
+        List<String>subList = cities.subList (1,2);
         System.out.println ("after sublist : "+subList);
 
         //16.addAll method

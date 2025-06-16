@@ -70,15 +70,30 @@ public class ArrayListDemo2 {
         Collections.sort (employees);
         System.out.println (" After sorting A to Z  :"+employees);
 
-        //16.reverse sorting
+        // 16. reverse the word
+        ArrayList<String> reversedNameList = new ArrayList<> ();
+        for(String name : employees){
+            String reverseName = "";
+            for(int i =name.length ()-1;i>=0;i--){
+                reverseName += name.charAt (i);
+            }
+
+            reversedNameList.add (reverseName);
+        }
+        System.out.println ("original employees list :"+employees);
+        System.out.println ("after reversing the name  : "+reversedNameList);
+
+
+
+        //17.reverse sorting
         Collections.sort (employees,Collections.reverseOrder ());
         System.out.println ("After reverse sorting z to A :"+employees);
 
-        // 17. sublist (fromIndex,toIndex)
+        // 18. sublist (fromIndex,toIndex)
         List<String>subTeam = employees.subList (2,4);
         System.out.println ("subTeam (2 to 4) : "+ subTeam);
 
-        // 18.clear()
+        // 19.clear()
         employees.clear ();
         System.out.println ("after clear () : "+ employees);
 
