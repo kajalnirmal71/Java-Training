@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicDemo/BasicDemo.iml" filepath="$PROJECT_DIR$/BasicDemo/BasicDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java Training Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Training Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeProgram/PracticeProgram.iml" filepath="$PROJECT_DIR$/PracticeProgram/PracticeProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringFunction/StringFunction.iml" filepath="$PROJECT_DIR$/StringFunction/StringFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-Training-Projects.iml" filepath="$PROJECT_DIR$/.idea/java-Training-Projects.iml" />
     </modules>
   </component>
 </project>
