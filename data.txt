@@ -1,0 +1,10 @@
+Java is powerful.
+Streams are useful.
+Files API is simple in Java 11.
+Optional avoids null checks.
+Var improves readability.
+Java 11 has new String methods.
+Lambda got var in parameters.
+Local variable syntax is better.
+Modern Java is concise.
+Happy coding with Java 11!
